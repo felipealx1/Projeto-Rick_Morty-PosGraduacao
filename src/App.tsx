@@ -1,0 +1,25 @@
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar";
+import Characters from "./pages/characters";
+import CharacterDetails from "./pages/CharacterDetails";
+import Locations from "./pages/locations";
+import LocationDetails from "./pages/LocationDetails";
+import Episodes from "./pages/episodes";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/characters" element={<Characters />} />
+        <Route path="/character/:id" element={<CharacterDetails />} />
+        <Route path="/locations" element={<Locations />} />
+        <Route path="/location/:id" element={<LocationDetails />} />
+        <Route path="/episodes" element={<Episodes />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
