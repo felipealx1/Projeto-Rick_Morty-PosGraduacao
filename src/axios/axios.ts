@@ -29,3 +29,13 @@ export const fetchLocationById = async (id: string) => {
     return null;
   }
 };
+
+export const fetchEpisodeById = async (id: string) => {
+  try {
+    const { data } = await axios.get(`https://rickandmortyapi.com/api/episode/${id}`);
+    return data;
+  } catch (err) {
+    console.error(err);
+    return null;
+  }
+};
