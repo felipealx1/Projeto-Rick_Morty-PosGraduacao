@@ -10,7 +10,7 @@
   <p><b>Link da API pública Rick and Morty:</b><a href="https://rickandmortyapi.com/"> https://rickandmortyapi.com/</a></p> 
   <p><b>Link da documentação da API pública Rick and Morty:</b><a href="https://rickandmortyapi.com/documentation/"> https://rickandmortyapi.com/documentation/</a></p>
   <h3>Deploy da minha Aplicação</h3>
-  <p><b>Link do Deploy da minha aplicação feita do Rick and Morty:</b><a href="https://projeto-rick-morty-pos-graduacao-l3rb94zsv-felipealx1s-projects.vercel.app/characters"> https://projeto-rick-morty-pos-graduacao-l3rb94zsv-felipealx1s-projects.vercel.app/characters</a></p>
+  <p><b>Link do Deploy da minha aplicação feita do Rick and Morty:</b><a href="projeto-rick-morty-pos-graduacao-pgc3.vercel.app"> projeto-rick-morty-pos-graduacao-pgc3.vercel.app</a></p>
 </p>
 
 <h2>Funcionalidades Implementadas</h2>
